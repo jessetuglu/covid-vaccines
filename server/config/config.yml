@@ -1,0 +1,4 @@
+:schedule:
+  scrape_levels_worker:
+    cron: 30 0 * * *
+    class: ScrapeLevelsWorker

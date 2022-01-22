@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import '~bulma';
+
+
+$blue: rgb(73, 84, 244);
+$red: rgb(239, 76, 95);
+
+
+.brand-image{
+  width:30px;
+  height:30px;
+}
+.navbar{
+  box-shadow: 0px 0px 4px 3px #ccc;
+  &__sign-up-button{
+    background-color: $blue;
+    color:white;
+  }
+  &__login-button{
+    background-color:$red;
+    color: white;
+  }
+  &__sign-up-button:hover{
+    color:white;
+  }
+  &__login-button:hover{
+    color:white;
+  }
+}
+
+.button-submit-primary{
+  background-color: $blue;
+  color:white;
+  &__login-button:hover{
+    color:white;
+  }
+}
+
+.homepage{
+  text-align:center;
+}
+.register{
+  width:60%;
+  margin-top: 20px;
+}
+.login{
+  width:60%;
+  &__form{
+    margin-top:20px;
+  }
+  button{
+    margin-top:10px;
+  }
+}
+.account{
+  &__vaccine-box{
+    padding:20px;
+  }
+  &__update-button{
+    background-color: $blue;
+    color:white;
+  }&__update-button:hover{
+     color:white;
+   }
+  &__vaccine-location-card{
+    margin-top: 20px;
+  }
+}
+.button-submit{
+  margin-top:10px;
+  margin-bottom:20px;
+}

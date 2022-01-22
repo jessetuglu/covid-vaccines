@@ -1,0 +1,7 @@
+:schedule:
+  scrape_worker:
+    cron: '*/15 * * * *'
+    class: ScrapeWorker
+  totals_worker:
+    cron: '0 */12 * * *'
+    class: TotalsWorker
